@@ -1,0 +1,41 @@
+a {
+    /*text-decoration: none;*/
+}
+
+/*HEADER*/
+
+.header__logo {
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone {
+    text-align: center;
+    color: black;
+}
+
+.social {
+    color: red;
+}
+
+.bg-light {
+    background: #d5dedb!important;
+}
+
+.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
