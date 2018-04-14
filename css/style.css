@@ -39,3 +39,14 @@ a {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.row > div {border:10px solid white}
+.B {background:blue; height:400px}
+.G {background:green; height:200px}
+.O {background:orange; height:200px}
+
+.row > div {border:10px solid white}
+.Y {background:yellow; height:400px}
+.R {background:red; height:400px}
+.Bl1 {background:black; height:200px}
+.Bl {background:black; height:400px}
