@@ -1,46 +1,62 @@
-a {
-    /*text-decoration: none;*/
+/*Header*/
+
+@font-face {
+    font-family: Airways;
+    /* Гарнитура шрифта */
+    src: url(../fonts/Airways_PERSONAL_USE_ONLY.ttf);
+    /* Путь к файлу со шрифтом */
 }
 
-/*HEADER*/
-
-.header__logo {
-    text-align: center;
-    /*border: 1px solid red;*/
+h1 {
+    font-family: Airways, 'Comic Sans MS', cursive;
+    font-size: 4rem;
 }
 
-.header__contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.header-row {
+    height: 150px;
+    position: relative;
+    z-index: 1;
 }
 
-.phone {
-    text-align: center;
+.header-row:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+
+.contacts a {
     color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3px;
 }
 
 .social {
-    color: red;
-}
-
-.bg-light {
-    background: #d5dedb!important;
-}
-
-.nav-item {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.logo {
-    width: 40%;
     margin-top: 5px;
-    margin-bottom: 5px;
 }
 
-.row > div {border:10px solid white}
+
+@media (max-width: 576px) {
+    .header-row {
+        height: 220px;
+    }
+}
+
+
+/*Header End*/
+
+
+/*.row > div {border:10px solid white}
 .B {background:blue; height:400px}
 .G {background:green; height:200px}
 .O {background:orange; height:200px}
@@ -49,4 +65,4 @@ a {
 .Y {background:yellow; height:400px}
 .R {background:red; height:400px}
 .Bl1 {background:black; height:200px}
-.Bl {background:black; height:400px}
+.Bl {background:black; height:400px}*/
