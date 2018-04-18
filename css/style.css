@@ -2,9 +2,7 @@
 
 @font-face {
     font-family: Airways;
-    /* Гарнитура шрифта */
     src: url(../fonts/Airways_PERSONAL_USE_ONLY.ttf);
-    /* Путь к файлу со шрифтом */
 }
 
 h1 {
@@ -42,7 +40,7 @@ h1 {
 }
 
 .social {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 
@@ -52,17 +50,42 @@ h1 {
     }
 }
 
-
 /*Header End*/
 
+/*Main*/
+.about {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #e5e5e5;
+}
 
-/*.row > div {border:10px solid white}
+.mosaic-row > div {border:10px solid white}
 .B {background:blue; height:400px}
 .G {background:green; height:200px}
 .O {background:orange; height:200px}
 
-.row > div {border:10px solid white}
+.mosaic-row > div {border:10px solid white}
 .Y {background:yellow; height:400px}
 .R {background:red; height:400px}
 .Bl1 {background:black; height:200px}
-.Bl {background:black; height:400px}*/
+.Bl {background:black; height:400px}
+
+/*End main*/
+
+/*Footer*/
+
+
+.footer-row {
+    height: 150px;
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 576px) {
+    .footer-row {
+        height: 220px;
+    }
+}
+
+
+
+/*End Footer*/
