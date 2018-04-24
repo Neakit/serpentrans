@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <!-- Font Awesome Icon -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
     <!-- Bootstrap CSS -->
@@ -16,36 +16,45 @@
 </head>
 
 <body>
-    <div class="container ">
+    <div class="container header">
         <div class="row header-contacts">
-            <div class="col">
-                <p>Serpentrans logo</p>
+            <div class="col-12 col-sm-2 d-flex justify-content-center align-items-center">
+                <img src="img/logo-example.jpg" alt="logo" style="height: 64px;">
             </div>
-            <div class="col-sm-3 d-flex align-items-center justify-content-end">
-                <span class="icon-periscope">
-					<a href="#">Украина, г.Киев, ул.Луговая 12</a>
-				</span>
-            </div>
-            <div class="col-sm-2">
-                <div class="float-right phone">
-                    <span class="float-right">
-                    	<a href="#">+38(093)458-17-10</a>
-                    </span>
-                    <br>
-                    <span class="icon-phone"></span>
-                    <a href="#">+38(095)235-66-84</a>
+            <div class="col-12 col-sm-10">
+                <div class="d-flex align-items-center justify-content-center justify-content-sm-end">
+                    <a title="Позвонить" href="tel:+380665678910">+38(066)567-89-10</a>
                 </div>
-                <div class="social float-sm-right">
-                    <span class="icon-telegram"></span>
-                    <span class="icon-google-plus"></span>
-                    <span class="icon-viber"></span>
-                    <span class="icon-skype"></span>
+                <div class="d-flex align-items-center justify-content-end flex-column flex-sm-row">
+                    <div class="order-1 order-sm-0">
+                        <span class="icon-periscope "></span>
+                        <a href="https://goo.gl/maps/Mz8rmGHWnZ92" target="_blank" class="pr-3">Украина, г.Киев, ул.Луговая 12</a>
+                    </div>
+                    <div class="order-0 order-sm-1">
+                        <span class="icon-phone "></span>
+                        <a title="Позвонить" href="tel:+380660472637">+38(066)047-26-37</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around justify-content-sm-end pt-3">
+                    <a href="tg://msg?text=Hello&to=+380660472637" class="p-1">
+                    	<span class="icon-telegram"></span>
+                    </a>
+                    <a href="#" class="p-1">
+                    	<span class="icon-google-plus"></span>
+                    </a>
+                    <a href="viber://add?number=+380660472637" class="p-1">
+                    	<span class="icon-viber"></span>
+                    </a>
+                    <a href="skype:+1234567890?call" class="p-1">
+                    	<span class="icon-skype"></span>                    	
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg">
+    <div class="container menu">
+        <nav class="navbar navbar-expand-md">
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
