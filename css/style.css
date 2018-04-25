@@ -7,6 +7,8 @@ a {
 
 
 
+
+
 /*specification end*/
 
 
@@ -73,14 +75,14 @@ a {
     font-family: 'Arsenal', sans-serif;
 }
 
-.header-contacts a:hover {
+.header-contacts a:hover, .menu a:hover {
     transition: .1s ease;
     color: #b21231;
 }
 
-
-
 /*header end*/
+
+/*menu*/
 
 .menu:before {
     position: absolute;
@@ -91,32 +93,60 @@ a {
     background-color: #000;
 }
 
-
-
-.nav-item {
-    padding: 0px 36px;
+.menu {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
 }
 
 .nav-link {
-    border-bottom: 1px solid red;
+    padding: 2px 0px !important;
+    border-bottom: 1px solid #b21231;
 }
 
+.navbar-toggler {
+    border: 1px solid #b21231 !important;
+}
 
+/*menu end*/
 
-/*Main*/
-
+/*banner*/
+    
 .about {
     background-image: url(../img/order.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left, center;
     /*background-size: cover;*/
-    height: 250px;
-    padding-top: 12px;
+    height: 300px;
+    /*padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #e5e5e5;
+    background-color: #e5e5e5;*/
+    font-family: 'Montserrat', sans-serif;
 }
 
+.about h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-order {
+    padding: 0 25px;
+    background-color: #b21231;
+    color: #fff; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+/*banner end*/
+
+
+
+
+/*Main*/
+
+
+
+/**/
 
 .mosaic-row>div {
     border: 10px solid white
