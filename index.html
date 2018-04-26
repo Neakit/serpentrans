@@ -56,17 +56,14 @@
     </div>
     <div class="container menu">
         <nav class="navbar navbar-expand-sm p-3">
-            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-viber"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav w-75 d-flex justify-content-around">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Главная</a>
                     </li>
-                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				          Транспорт
@@ -79,11 +76,9 @@
                             <a class="dropdown-item" href="#">спецтранспорт</a>
                         </div>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#">О нас</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#">Контакты</a>
                     </li>
@@ -91,7 +86,6 @@
             </div>
         </nav>
     </div>
-
     <div class="container-fluid banner">
         <div class="row about justify-content-center align-items-center p-sm-5 p-3">
             <div class="col-sm-5 align-self-start">
@@ -101,69 +95,71 @@
             </div>
             <div class="col-sm-4 align-self-end text-center">
                 <button type="button" class="btn btn-order" data-toggle="modal" data-target="#orderModal">
-				  Заказать
-				</button>
+                    Заказать
+                </button>
             </div>
-
-
-			<!-- Modal -->
-			<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <h5 class="modal-title" id="exampleModalLabel">Оформить заказ в процессе</h5>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          <span aria-hidden="true">&times;</span>
-			        </button>
-			      </div>
-			      <div class="modal-body">
-			        ...
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary">Save changes</button>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
+            <!-- Modal -->
+            <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Оформить заказ в процессе</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="container">
-    	<div class="row">
-    		<div class="col-sm">
-    			<div  style="background-color: red; height: 300px;">block 1</div>
-    			<div class="float-left w-50" style="background-color: blue; height: 300px;" >block 2</div>
-    			<div style="background-color: pink; height: 150px;">block 3</div>
-    			<div style="background-color: green; height: 150px;">block 4</div>
-    		</div>
-    		<div class="col-sm">
-    			<div  style="background-color: red; height: 300px;">block 1</div>
-    			<div class="float-left w-50" style="background-color: blue; height: 300px;" >block 2</div>
-    			<div style="background-color: pink; height: 150px;">block 3</div>
-    			<div style="background-color: green; height: 150px;">block 4</div>
-    		</div>
-    	</div>
-    </div>
-
-    <div class="container">
-        <div class="row mosaic-row d-block">
-            <div class="col-md-8 col-lg-6 float-left B"></div>
-            <div class="col-md-4 col-lg-3 float-left G"></div>
-            <div class="col-md-4 col-lg-3 float-left G"></div>
-            <div class="col-md-12 col-lg-6 float-left O"></div>
+    <div class="container main">
+        <div class="row ">
+            <div class="col-sm">
+                <div class="row ">
+                    <div class="col-12 col-sm-12 p-2" style="height: 285px;">
+                        <div class="test">block_1</div>
+                    </div>
+                    <div class="col-12 col-sm-6 p-2" style="height: 570px;">
+                        <div class="test">block_2</div>
+                    </div>
+                    <div class="col-12 col-sm-6 p-0">
+                        <div class="p-2" style="height: 285px;">
+                            <div class="test">block_3</div>
+                        </div>
+                        <div class="p-2" style="height: 285px;">
+                            <div class="test">block_4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-12 col-sm-6 p-0">
+                        <div class="p-2" style="height: 285px;">
+                            <div class="test">block_1</div>
+                        </div>
+                        <div class="p-2" style="height: 285px;">
+                            <div class="test">block_2</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 p-2" style="height: 570px;">
+                        <div class="test">block_3</div>
+                    </div>
+                    <div class="col-12 col-sm-12 p-2" style="height: 285px;">
+                        <div class="test">block_4</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row mosaic-row d-block">
-            <div class="col-md-8 col-lg-2 float-left Y"></div>
-            <div class="col-md-4 col-lg-4 float-left R"></div>
-            <div class="col-md-4 col-lg-2 float-left Bl"></div>
-            <div class="col-md-8 col-lg-4 float-left Bl1"></div>
-            <div class="col-md-8 col-lg-4 float-left Bl1"></div>
-        </div>
     </div>
-
-
     <div class="container container-fluid">
         <div class="container">
             <h2 class="display-4">О компании</h2>
